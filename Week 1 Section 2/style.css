@@ -1,0 +1,147 @@
+#container 
+{
+	width:70%;
+	background-color:#F2EFDF;
+	margin:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	box-shadow:10px 0px 5px #888888
+}
+
+body
+{
+	font-family:calibri,sans-serif;
+	font-size:1.1em;
+	background-color:E8FBD2;
+	margin:0px;
+}
+
+#contact
+{
+	height:3em;
+	background-color:#AF9D88;
+	padding:0.2em 0.5em;
+	text-align:right;
+	color:white;
+}
+
+#contact img, footer img
+{
+	height:32px;
+	width:32px;
+	vertical-align:middle;
+}
+
+#logo
+{
+	height:0.5em;
+	background-color:#05572D;
+	padding: 0.2em 0.5em;
+}
+
+#logo img
+{
+	float:left;
+	margin:0.7em 0.5em;
+}
+
+main
+{
+	padding:0.5em 1.5em;
+}
+
+main img
+{
+	width:97%;
+	height:15em;
+	border-style:solid;
+	border-width:1em;
+	border-color:#AF9D88;
+}
+
+h1
+{
+	color:#05572D;
+	font-weight:normal;
+}
+
+footer
+{
+	background-color:#05572D;
+	color:white;
+	font-size:10px;
+	/* height:7em; */
+	margin:0px;
+	padding:0.2em 0.5em;
+}
+
+table
+{
+	
+	text-align:center;
+	border-collapse:collapse;
+	margin: 1em 0em;
+}
+
+table, table td
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:#AF9D88;
+}
+
+.diff
+{
+	color:#05572D;
+}
+
+table img
+{
+	height:100%;
+	width:100%;
+	border:none;
+}
+
+label
+{
+	width:10em;
+	margin-right:1em;
+	float:left;
+	text-align:right;
+}
+
+legend
+{
+	color:#05572D;
+	font-size:1.2em;
+}
+
+fieldset
+{
+	border-style:solid;
+	border-width:3px;
+	border-color:#AF9D88;
+	line-height:1.5em;
+}
+
+input
+{
+	width:12em;
+	display:inline;
+	border: solid 1px #ccc;
+	box-sizing:border-box;
+}
+input,select
+{
+	border-radius:4px;
+}
+input[type=submit]
+{
+	width:100%;
+}
+
+a:link, a:visited
+{
+	text-decoration: none;
+	color: white;
+}
